@@ -6,3 +6,65 @@
     box-sizing: border-box;
 }
 
+@import url(variable.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background: red;
+    display: flex;
+    padding: 20px;
+}
+
+
+.div__header{
+    /* background: green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 370px;
+    height: auto;
+    gap: 20px;
+    width: 25%;
+    margin-top: 70px;
+    h1{
+        font-family: "Avenir-Heavy";
+    }
+    p{
+        font-family: "Avenir-Roman";
+    }
+    .div__container-button{
+        background: var(--font-color-1);
+        border-radius: 20px;
+        width: 100px;
+    }
+    .div__container-button a{
+        color: var(--font-color-2);
+        font-family: "Avenir-Roman";
+        text-decoration: none;
+        font-size: 14px;
+    }
+}
+
+.div__header-img{
+    /* background: pink; */
+    width: 75%;
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+    justify-content: center;
+    height: 500px;
+}
+.div__header-img img{
+    width: 360px;
+    height: 400px;
+    position: relative;
+}
+#img__header{
+    top: 12%;
+}
