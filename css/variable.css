@@ -1,4 +1,16 @@
 :root{
-    --color-1: #eee;
+    --color-1: #FFFFFF;
+    --color-2: #252525;
+    --background-color-1: linear-gradient(#D9D9D9, #252525, #FFFFFF, #252525);
 
+}
+
+@font-face {
+    font-family: "Avenir-Heavy";
+    src: url(../storage/font/AvenirLTStd-Heavy.otf);
+}
+
+@font-face {
+    font-family: "Avenir-Roman";
+    src: url(../storage/font/AvenirLTStd-Roman.otf);
 }
