@@ -1,4 +1,14 @@
 :root{
-    --color-1: #eee;
+    --font-color-1: #252525;
+    --font-color-2: #FFFFFF;
 
+}
+
+@font-face {
+    font-family: "Avenir-Heavy";
+    src: url(../storage/font/AvenirLTStd-Heavy.otf);
+}
+@font-face {
+    font-family: "Avenir-Roman";
+    src: url(../storage/font/AvenirLTStd-Roman.otf);
 }
