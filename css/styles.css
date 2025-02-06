@@ -10,7 +10,7 @@
 header{
     /* background: red; */
     display: flex;
-    padding: 20px;
+    padding: 60px;
     justify-content: space-between;
     align-items: center;
 }
