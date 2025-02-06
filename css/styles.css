@@ -17,7 +17,7 @@ body{
 }
 
 header{
-    background: red;
+    /* background: red; */
     grid-area: header;
     width: 550px;
     height: 350px;
@@ -49,7 +49,7 @@ header p{
     text-decoration: none;
 }
 .section__img{
-    background: blue;
+    /* background: blue; */
     grid-area: img;
     gap: 50px;
 }
@@ -59,7 +59,7 @@ header p{
     padding-top: 60px;
 }
 .aside__content{
-    background: green;
+    /* background: green; */
     display: flex;
     flex-direction: column;
     margin-top: 180px;
@@ -70,7 +70,7 @@ header p{
 }
 
 .div__content{
-    background: pink;
+    /* background: pink; */
     display: flex;
     flex-direction: column;
     gap: 10px;
