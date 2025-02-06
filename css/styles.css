@@ -10,9 +10,29 @@ body{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    grid-template-areas: "main main header header header"
-                         ". . . . ."
-                         ". . . . ."
-                         "footer footer footer footer footer";
+    grid-template-areas: "img header"
+                         "img section"
+                         "footer section";
 }
 
+header{
+    background: red;
+    grid-area: header;
+    width: 600px;
+    height: 100%;
+    gap: 50px;
+}
+.section__img{
+    background: blue;
+    grid-area: img;
+    width: 600px;
+    height: 100%;
+    gap: 50px;
+}
+.section__content{
+    background: green;
+    grid-area: section;
+    width: 600px;
+    height: 100%;
+    gap: 50px;
+}
