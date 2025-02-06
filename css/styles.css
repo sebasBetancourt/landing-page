@@ -8,7 +8,7 @@
 
 
 header{
-    background: red;
+    /* background: red; */
     display: flex;
     padding: 20px;
     justify-content: space-between;
@@ -49,7 +49,7 @@ header h1{
 }
 
 .section__container{
-    background: blue;
+    /* background: blue; */
     display: flex;
     justify-content: center;
     align-items: center;
