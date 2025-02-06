@@ -15,7 +15,7 @@
 }
 
 header{
-    background: red;
+    /* background: red; */
     display: flex;
     padding: 20px;
 }
@@ -67,4 +67,36 @@ header{
 }
 #img__header{
     top: 12%;
+}
+
+main{
+    padding: 40px;
+    /* background: blue; */
+}
+.section__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    gap: 40px;
+}
+.div__container{
+    /* background: green; */
+    width: 30%;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.div__container span{
+    font-family: "Avenir-Roman";
+    font-size: 25px;
+    color: var(--font-color-3);
+}
+.div__container img{
+    display: flex;
+    width: 95%;
+    height: 100%;
+    align-self: center;
 }
