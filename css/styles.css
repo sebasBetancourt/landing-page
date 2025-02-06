@@ -48,4 +48,14 @@ header h1{
     text-decoration: none;
 }
 
-
+.section__container{
+    background: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.section__container img{
+    width: 99%;
+    height: 50%;
+}
