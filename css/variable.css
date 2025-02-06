@@ -1,8 +1,7 @@
 :root{
     --color-1: #FFFFFF;
     --color-2: #252525;
-    --background-color-1: linear-gradient(#D9D9D9, #252525, #FFFFFF, #252525);
-
+    --color-3: #F2F2F2;
 }
 
 @font-face {

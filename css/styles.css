@@ -1,27 +1,28 @@
 @import url(variable.css);
 
-/* *{
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-} */
+}
 
 body{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 200px);
     grid-template-areas: "img header"
-                         "img section"
-                         "img section"
+                         "img aside"
+                         "img aside"
                          "footer footer";
 }
 
 header{
     background: red;
     grid-area: header;
-    width: 600px;
+    width: 550px;
     height: 350px;
     gap: 50px;
+    margin: 60px 0 0 60px;
 }
 header h1{
     font-family: "Avenir-Heavy";
@@ -50,21 +51,41 @@ header p{
 .section__img{
     background: blue;
     grid-area: img;
-    width: 600px;
-    height: auto;
     gap: 50px;
 }
-.section__content{
+.section__img img{
+    width: 100%;
+    height: 100%;
+    padding-top: 60px;
+}
+.aside__content{
     background: green;
-    grid-area: section;
-    width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 180px;
     height: auto;
-    gap: 50px;
+    padding: 50px;
+    gap: 30px;
+    grid-area: aside;
 }
-footer{
-    background: yellow;
-    grid-area: footer;
-    width: 600px;
+
+.div__content{
+    background: pink;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
     height: auto;
-    gap: 50px;
+}
+
+.div__content h4{
+    font-family: "Avenir-Heavy";
+    font-size: 30px;
+    color: var(--color-2);
+}
+
+.div__content p{
+    font-family: "Avenir-Roman";
+    font-size: 20px;
+    color: var(--color-2);
 }
