@@ -10,7 +10,7 @@
 header{
     width: 50%;
     padding: 50px;
-    background: red;
+    /* background: red; */
 }
 header h1{
     font-family: "Avenir-Heavy";
@@ -18,16 +18,16 @@ header h1{
 }
 
 .section__container{
-    background: green;
+    /* background: green; */
     display: flex;
     padding: 20px;
-    gap: 7px;
+    gap: 40px;
 }
 .article__container{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    background: pink;
+    /* background: pink; */
 }
 
 .article__container h4{
@@ -39,4 +39,9 @@ header h1{
     font-family: "Avenir-Roman";
     font-size: 20px;
     color: var(--font-color-1);
+}
+
+.article__container img{
+    width: 100%;
+    height: 70%;
 }
