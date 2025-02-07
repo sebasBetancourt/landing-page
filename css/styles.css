@@ -6,3 +6,26 @@
     box-sizing: border-box;
 }
 
+header{
+    background-color: red;
+    padding: 35px;
+    width: 200px;
+}
+
+.div__logo{
+    background: green;
+    height: 100px;
+}
+
+.div__border img{
+    background: yellow;
+    position: absolute;
+}
+.div__icon{
+    background: blue;
+    position: relative;
+    width: 30px;
+    top: 35px;
+    left: 35px;
+}
+
