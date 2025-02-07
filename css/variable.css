@@ -14,3 +14,15 @@
     font-family: "Avenir-Roman";
     src: url(../storage/font/AvenirLTStd-Roman.otf);
 }
+@font-face {
+    font-family: "Payfair-Bold";
+    src: url(../storage/font/Playfair_Display/PlayfairDisplay-Bold.ttf);
+}
+@font-face {
+    font-family: "WorkSans-Regular";
+    src: url(../storage/font/worksans/WorkSans-Regular.ttf);
+}
+@font-face {
+    font-family: "WorkSans-Medium";
+    src: url(../storage/font/worksans/WorkSans-Medium.ttf);
+}
