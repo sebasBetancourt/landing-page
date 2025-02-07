@@ -14,11 +14,29 @@ header{
 }
 header h1{
     font-family: "Avenir-Heavy";
-    font-size: 60px;
+    font-size: 65px;
 }
 
 .section__container{
     background: green;
     display: flex;
-    padding: 30px;
+    padding: 20px;
+    gap: 7px;
+}
+.article__container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: pink;
+}
+
+.article__container h4{
+    font-family: "Avenir-Heavy";
+    font-size: 25px;
+    color: var(--font-color-1);
+}
+.article__container p{
+    font-family: "Avenir-Roman";
+    font-size: 20px;
+    color: var(--font-color-1);
 }
