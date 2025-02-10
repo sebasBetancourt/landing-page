@@ -10,12 +10,17 @@ body{
     background: yellow;
 }
 
+main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "aside-left section aside-right";
+}
+
 .section__center {
     background: red;
     padding: 20px;
     justify-self: center;
-    width: 50%;
-    height: 100%;
+    grid-area: section;
 
 }
 .article__design {
@@ -26,7 +31,8 @@ body{
     align-items: center;
     display: flex;
     flex-direction: column;
-    height: 100%;
+    padding-top: 90px;
+    padding-bottom: 50px;
     gap: 24px;
 
 }
@@ -53,5 +59,37 @@ body{
     font-family: "Poppins-Regular";
     text-decoration: none;
     font-size: 24px;
-    
+
+}
+
+.aside__left {
+    grid-area: aside-left;
+    background: purple;
+    padding: 30px;
+}
+.div__lorem-left {
+    background: yellowgreen;
+    width: 434px;
+    height: 84px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.div__lorem-left span{
+    font-family: "Times-Bold";
+    font-size: 20px;
+}
+.div__lorem-left p{
+    font-family: "Times-Bold";
+    font-size: 20px;
+}
+.div__img-left {
+    background: violet;
+}
+
+
+
+.aside__right{
+    background: blue;
+    grid-area: aside-right;
 }

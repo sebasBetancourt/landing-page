@@ -22,3 +22,7 @@
     font-family: "Poopins-Regular";
     src: url(../storage/font/poppins/Poppins-Regular.ttf);
 }
+@font-face {
+    font-family: "Times-Bold";
+    src: url(../storage/font/times/Typography\ Times\ Bold.ttf);
+}
