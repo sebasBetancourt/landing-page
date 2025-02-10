@@ -19,32 +19,32 @@ body{
 header{
     /* background: red; */
     grid-area: header;
+    display: grid;
     width: 550px;
     height: 350px;
-    gap: 50px;
     margin: 60px 0 0 60px;
 }
 header h1{
     font-family: "Avenir-Heavy";
-    font-size: 50px;
+    font-size: 60px;
     color: var(--color-2);
 }
 header p{
     font-family: "Avenir-Roman";
-    font-size: 22px;
+    font-size: 20px;
     color: var(--color-2);
 }
 .div__explore{
     background: var(--color-2);
-    border-radius: 17px;
+    border-radius: 16px;
     text-align: center;
     align-content: center;
-    width: 16%;
-    height: 17%;
+    width: 148px;
+    height: 44px;
 }
 .div__explore a{
     font-family: "Avenir-Roman";
-    font-size: 20px;
+    font-size: 18px;
     color: var(--color-1);
     text-decoration: none;
 }
@@ -62,7 +62,7 @@ header p{
     /* background: green; */
     display: flex;
     flex-direction: column;
-    margin-top: 180px;
+    margin-top: 320px;
     height: auto;
     padding: 50px;
     gap: 30px;
