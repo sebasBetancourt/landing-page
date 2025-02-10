@@ -6,3 +6,51 @@
     box-sizing: border-box;
 }
 
+body{
+    background: yellow;
+}
+
+.section__center {
+    background: red;
+    padding: 20px;
+    justify-self: center;
+    width: 50%;
+    height: 100%;
+
+}
+.article__design {
+    background: green;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 24px;
+
+}
+.article__design h1{
+    font-family: "TImes-Regular";
+    font-size: 112px;
+    font-weight: normal;
+
+}
+.article__design p{
+    font-family: "Times-Regular";
+    font-size: 24px;
+    font-weight: normal;
+}
+.div__button {
+    background: #252525;
+    padding: 20px;
+    border-radius: 36px;
+    width: 182px;
+    height: 66px;
+}
+.div__button a{
+    color: #ffff;
+    font-family: "Poppins-Regular";
+    text-decoration: none;
+    font-size: 24px;
+}
