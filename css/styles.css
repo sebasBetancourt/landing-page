@@ -25,43 +25,48 @@ header{
     /* background: green; */
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
     width: 370px;
     height: auto;
     gap: 20px;
-    width: 25%;
+    width: 35%;
     margin-top: 70px;
+    padding-left: 50px;
     h1{
         font-family: "Avenir-Heavy";
+        font-size: 56px;
     }
     p{
         font-family: "Avenir-Roman";
+        font-size: 25px;
     }
     .div__container-button{
         background: var(--font-color-1);
         border-radius: 20px;
-        width: 100px;
+        width: 150px;
+        height: 50px;
+        align-content: center;
+        text-align: center;
     }
     .div__container-button a{
         color: var(--font-color-2);
         font-family: "Avenir-Roman";
         text-decoration: none;
-        font-size: 14px;
+        font-size: 18px;
     }
 }
 
 .div__header-img{
     /* background: pink; */
-    width: 75%;
+    width: 55%;
     display: flex;
     gap: 30px;
     padding: 20px;
     justify-content: center;
     height: 500px;
+    padding-left: 190px;
 }
 .div__header-img img{
-    width: 360px;
+    width: 320px;
     height: 400px;
     position: relative;
 }
