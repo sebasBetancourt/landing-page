@@ -87,6 +87,22 @@ main{
     background: violet;
 }
 
+.div__frame-one {
+    display: flex;
+    background: wheat;
+    margin-top: 40px;
+    width: 180px;
+}
+.div__frame-two {
+    display: flex;
+    background: wheat;
+    position: relative;
+    width: 250px;
+    left: 240px;
+    bottom: 180px;
+}
+.div__img-left {
+}
 
 
 .aside__right{
