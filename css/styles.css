@@ -6,3 +6,18 @@
     box-sizing: border-box;
 }
 
+
+.main {
+    background: green;
+    display: grid;
+    grid-template-columns: 600px 680px;
+    grid-template-areas: ;
+}
+.section__left {
+}
+.article__content {
+}
+.div__button {
+}
+.div__info {
+}
