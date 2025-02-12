@@ -80,3 +80,17 @@ main {
     bottom: 560px;
 }
 
+.section__container {
+    background: yellow;
+    grid-area: principal;
+    padding: 20px;
+}
+.div__container {
+    background: violet;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.div__container img{
+    height: 400px;
+}
