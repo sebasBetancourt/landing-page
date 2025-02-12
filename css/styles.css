@@ -13,7 +13,9 @@ body{
 main{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1000px;
     grid-template-areas: "aside-left section aside-right";
+
 }
 
 .section__center {
@@ -66,6 +68,7 @@ main{
     grid-area: aside-left;
     background: purple;
     padding: 30px;
+    z-index: 2;
 }
 .div__lorem-left {
     background: yellowgreen;
@@ -84,7 +87,10 @@ main{
     font-size: 20px;
 }
 .div__img-left {
-    background: violet;
+    position: relative;
+    z-index: -1;
+    top: -280px;
+    clear:;
 }
 
 .div__frame-one {
@@ -92,6 +98,12 @@ main{
     background: wheat;
     margin-top: 40px;
     width: 180px;
+    transform: rotate(101.78deg);
+    z-index: 1;
+}
+.div__frame-one img{
+    width: 179.91px;
+    height: 176.57px;
 }
 .div__frame-two {
     display: flex;
@@ -100,11 +112,8 @@ main{
     width: 250px;
     left: 240px;
     bottom: 180px;
+    z-index: 1;
 }
-.div__img-left {
-}
-
-
 .aside__right{
     background: blue;
     grid-area: aside-right;
