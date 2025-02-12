@@ -6,3 +6,77 @@
     box-sizing: border-box;
 }
 
+body{
+    overflow-y: hidden;
+}
+main { 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 800px 800px 800px;
+    grid-template-areas: "section principal container";
+}
+
+.aside__left {
+    grid-area: section;
+    background: red;
+    padding: 58px;
+}
+.article__contain {
+    background: green;
+    width: 258px;
+    height: 382px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-top: 10px;
+    gap: 25px;
+}
+.article__contain h1{
+    font-family: "Times-Regular";
+    color: #252525;
+    font-size: 38px;
+}
+.article__contain p{
+    font-family: "Times-Regular";
+    color: #252525;
+    font-size: 15px;
+}
+.div__button {
+    background: #457D61;
+    width: 116px;
+    height: 30px;
+    text-align: center;
+    align-content: center;
+    border-radius: 36px;
+}
+
+
+.div__button a{
+    text-decoration: none;
+    color: var(--color-1);
+}
+
+.div__frames {
+    background: pink;
+    margin-top: 50px;
+    display: flex;
+    width: 258px;
+    gap: 20px;
+}
+.div__frames img{
+    width: 45%;
+    height: 45%;
+} 
+.div__frames img:nth-child(2){
+    position: relative;
+    bottom: 40px;
+}
+.div__frames + img{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    background: tomato;
+    left: 250px;
+    bottom: 560px;
+}
+

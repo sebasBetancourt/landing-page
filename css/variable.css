@@ -6,11 +6,6 @@
 }
 
 @font-face {
-    font-family: "Avenir-Heavy";
-    src: url(../storage/font/AvenirLTStd-Heavy.otf);
-}
-
-@font-face {
-    font-family: "Avenir-Roman";
-    src: url(../storage/font/AvenirLTStd-Roman.otf);
+    font-family: "Times-Regular";
+    src: url(../storage/font/Poppins-Regular.ttf);
 }
