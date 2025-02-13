@@ -6,3 +6,45 @@
     box-sizing: border-box;
 }
 
+
+header{
+    background: red;
+    align-items: center;
+    padding: 20px;
+    justify-items: center;
+}
+.div__article {
+    display: flex;
+    width: 520px;
+    height: auto;
+    flex-direction: column;
+    background: pink;
+    text-align: center;
+    align-items: center;
+    margin-top: 27px;
+    gap: 20px;
+}
+.div__article h1{
+    font-family: "Avenir-Heavy";
+    font-size: 37px;
+    color: var(--color-2);
+}
+.div__article p{
+    font-family: "Avenir-Roman";
+    font-size: 18px;
+    color: var(--color-2);
+}
+.div__button {
+    background: var(--color-2);
+    width: 102px;
+    height: 46px;
+    border-radius: 36px;
+    text-align: center;
+    align-content: center;
+}
+.div__button a{
+    font-family: "Poppins-Regular";
+    font-size: 14px;
+    text-decoration: none;
+    color: var(--color-1);
+}
