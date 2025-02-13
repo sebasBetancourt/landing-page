@@ -4,13 +4,7 @@
     --background-color-1: linear-gradient(#D9D9D9, #252525, #FFFFFF, #252525);
 
 }
-
 @font-face {
-    font-family: "Avenir-Heavy";
-    src: url(../storage/font/AvenirLTStd-Heavy.otf);
-}
-
-@font-face {
-    font-family: "Avenir-Roman";
-    src: url(../storage/font/AvenirLTStd-Roman.otf);
+    font-family: "Poppins-Regular";
+    src: url(../storage/font/poppins/Poppins-Regular.ttf);
 }
