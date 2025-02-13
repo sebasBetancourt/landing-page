@@ -87,7 +87,7 @@ header{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding: 40px;
+    padding: 0 40px 40px 40px;
 }
  
 .aside__left span{
@@ -95,17 +95,41 @@ header{
     font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
 }
+.aside__left img:last-child{
+    display: flex;
+    width: 110%;
+    height: 60%;
+}
 
 .section__container {
     grid-area: principal;
     background: blueviolet;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
 .div__img-left {
+    background: yellow;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
-.div__img-center {
+.div__img-left img{
+    width: 200px;
+}
+.div__img-center img{
+    height:460px;
 }
 .div__img-right {
+    background: yellow;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
+.div__img-right img{
+    width: 200px;
+}
+
 .aside__right {
     grid-area: right;
     background: wheat;
