@@ -75,4 +75,39 @@ header{
     height: 55%;
 }
 
+.main {
+    background: yellow;
+    display: grid;
+    grid-template-columns: 22% 56% 22%;
+    grid-template-areas: "left principal right";
+}
+.aside__left {
+    grid-area: left;
+    background: pink;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px;
+}
+ 
+.aside__left span{
+    color: var(--color-2);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+.section__container {
+    grid-area: principal;
+    background: blueviolet;
+}
+.div__img-left {
+}
+.div__img-center {
+}
+.div__img-right {
+}
+.aside__right {
+    grid-area: right;
+    background: wheat;
+}
 
