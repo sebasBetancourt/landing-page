@@ -6,3 +6,43 @@
     box-sizing: border-box;
 }
 
+header{
+    background: red;
+    display: flex;
+    padding: 90px 50px 0 50px;
+    gap: 60px;
+}
+.div__logo-left {
+    background: yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.div__logo-left img:first-child{
+    width: 300px;
+    height: 90px;
+}
+.div__logo-left img:last-child{
+    width: 50%;
+    height: 55%;
+}
+.div__content {
+}
+.div__button {
+}
+.div__logo-right {
+    background: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.div__logo-right img:last-child{
+    width: 300px;
+    height: 90px;
+}
+.div__logo-right img:first-child{
+    width: 50%;
+    height: 55%;
+}
