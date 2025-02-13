@@ -49,3 +49,38 @@ header{
     color: var(--color-1);
 }
 
+.section__container {
+    background: green;
+    padding: 20px;
+    justify-items: center;
+}
+.div__box {
+    background: yellow;
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    border-radius: 48px;
+    gap: 35px;
+}
+.div__info {
+    background: yellowgreen;
+    width: 250px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.div__info img{
+    width: 40px;
+}
+.div__info h5{
+    font-family: "Avenir-Heavy";
+    font-size: 18px;
+    color: var(--color-2);
+}
+.div__info p{
+    font-family: "Avenir-Roman";
+    font-size: 16px;
+    color: linear-gradient(90deg, rgba(37,37,37,1) 0%, rgba(139,139,139,1) 100%);
+}
