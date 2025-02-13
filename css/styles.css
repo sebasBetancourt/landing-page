@@ -80,6 +80,8 @@ main {
     bottom: 560px;
 }
 
+
+/*------------Section-container---------------*/
 .section__container {
     background: yellow;
     grid-area: principal;
@@ -87,10 +89,22 @@ main {
 }
 .div__container {
     background: violet;
+    height: 80%;
     display: flex;
     flex-direction: column;
-    align-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 120px;
 }
-.div__container img{
-    height: 400px;
+.div__container img:first-child{
+    width: 374px;
+    height: 139px;
+    background: turquoise;
+}
+.div__container img:last-child{
+    position: relative;
+    /* background: wheat; */
+    width: 294px;
+    height: 440px;
+    bottom: 50px;
 }
