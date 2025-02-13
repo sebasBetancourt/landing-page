@@ -1,7 +1,7 @@
 :root{
     --color-1: #FFFFFF;
     --color-2: #252525;
-    --background-color-1: linear-gradient(#D9D9D9, #252525, #FFFFFF, #252525);
+    --background-color-1: linear-gradient(103deg, rgba(9,33,44,1) 0%, rgba(4,62,73,1) 100%);
 
 }
 
@@ -13,4 +13,9 @@
 @font-face {
     font-family: "Avenir-Roman";
     src: url(../storage/font/AvenirLTStd-Roman.otf);
+}
+
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url(../storage/font/Poppins-Regular.ttf);
 }
