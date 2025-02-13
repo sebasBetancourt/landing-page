@@ -80,6 +80,7 @@ header{
     display: grid;
     grid-template-columns: 22% 56% 22%;
     grid-template-areas: "left principal right";
+    margin-top: 40px;
 }
 .aside__left {
     grid-area: left;
@@ -133,5 +134,18 @@ header{
 .aside__right {
     grid-area: right;
     background: wheat;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 40px 40px 40px;
 }
-
+.aside__right span{
+    color: var(--color-2);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+.aside__right img:first-child{
+    display: flex;
+    width: 110%;
+    height: 60%;
+}
