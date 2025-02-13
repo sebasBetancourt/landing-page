@@ -7,13 +7,13 @@
 }
 
 header{
-    background: red;
+    /* background: red; */
     display: flex;
     padding: 90px 50px 0 50px;
     gap: 60px;
 }
 .div__logo-left {
-    background: yellow;
+    /* background: yellow; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,7 +28,7 @@ header{
     height: 55%;
 }
 .div__content {
-    background: pink;
+    /* background: pink; */
     display: flex;
     flex-direction: column;
     gap: 25px;
@@ -60,7 +60,7 @@ header{
     font-size: 20px;
 }
 .div__logo-right {
-    background: blue;
+    /* background: blue; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -76,7 +76,7 @@ header{
 }
 
 .main {
-    background: yellow;
+    /* background: yellow; */
     display: grid;
     grid-template-columns: 22% 56% 22%;
     grid-template-areas: "left principal right";
@@ -84,7 +84,7 @@ header{
 }
 .aside__left {
     grid-area: left;
-    background: pink;
+    /* background: pink; */
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -104,13 +104,13 @@ header{
 
 .section__container {
     grid-area: principal;
-    background: blueviolet;
+    /* background: blueviolet; */
     display: flex;
     justify-content: center;
     gap: 30px;
 }
 .div__img-left {
-    background: yellow;
+    /* background: yellow; */
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -122,7 +122,7 @@ header{
     height:460px;
 }
 .div__img-right {
-    background: yellow;
+    /* background: yellow; */
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -133,7 +133,7 @@ header{
 
 .aside__right {
     grid-area: right;
-    background: wheat;
+    /* background: wheat; */
     display: flex;
     flex-direction: column;
     gap: 20px;
