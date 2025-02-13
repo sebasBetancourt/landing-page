@@ -18,11 +18,11 @@ main {
 
 .aside__left {
     grid-area: section;
-    background: red;
+    /* background: red; */
     padding: 58px;
 }
 .article__contain {
-    background: green;
+    /* background: green; */
     width: 258px;
     height: 382px;
     display: flex;
@@ -57,7 +57,7 @@ main {
 }
 
 .div__frames {
-    background: pink;
+    /* background: pink; */
     margin-top: 50px;
     display: flex;
     width: 258px;
@@ -75,7 +75,7 @@ main {
     width: 50px;
     height: 50px;
     position: relative;
-    background: tomato;
+    /* background: tomato; */
     left: 250px;
     bottom: 560px;
 }
@@ -83,12 +83,12 @@ main {
 
 /*------------Section-container---------------*/
 .section__container {
-    background: yellow;
+    /* background: yellow; */
     grid-area: principal;
     padding: 20px;
 }
 .div__container {
-    background: violet;
+    /* background: violet; */
     height: 80%;
     display: flex;
     flex-direction: column;
@@ -99,7 +99,7 @@ main {
 .div__container img:first-child{
     width: 374px;
     height: 139px;
-    background: turquoise;
+    /* background: turquoise; */
 }
 .div__container img:last-child{
     position: relative;
@@ -111,11 +111,11 @@ main {
 /*----------Aside-right---------------------*/
 .aside__right {
     grid-area: container;
-    background: red;
+    /* background: red; */
     padding: 58px;
 }
 .div__frames-right {
-    background: pink;
+    /* background: pink; */
     margin-top: 60px;
     display: flex;
     width: 258px;
@@ -133,13 +133,13 @@ main {
     width: 50px;
     height: 50px;
     position: relative;
-    background: tomato;
+    /* background: tomato; */
     bottom: 20px;
 }
 .article__contain-right {
 }
 .article__contain-right  {
-    background: green;
+    /* background: green; */
     width: 270px;
     height: 332px;
     display: flex;
