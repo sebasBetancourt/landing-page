@@ -54,6 +54,7 @@ header{
     padding: 20px;
     justify-items: center;
 }
+
 .div__box {
     background: yellow;
     width: 80%;
@@ -83,4 +84,14 @@ header{
     font-family: "Avenir-Roman";
     font-size: 16px;
     color: linear-gradient(90deg, rgba(37,37,37,1) 0%, rgba(139,139,139,1) 100%);
+}
+
+.section__container + img{
+    position: relative;
+    display: flex;
+    width: 90%;
+    height: 500px;
+    justify-self: center;
+    bottom: 90px;
+    z-index: -1;
 }
